@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+
+#connexion h1 {
+    font-family: "Raleway", sans-serif;
+
+    font-size: 3em;
+    display: flex;
+    font-weight: 800;
+    margin-bottom: 55px;
+}
+
+#connexion {
+    width: 450px;
+    height: 520px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px gray;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+form {
+
+    width: 380px;
+    padding: 10px;
+
+
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 15px;
+
+    width: 330px;
+}
+
+.caseInput {
+    margin-top: 70px;
+}
+
+#error{
+    left: 10%;
+    position: absolute;
+    top: 22%;
+}
+button {
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 20px;
+    border: none;
+    width: 350px;
+    padding: 10px;
+    background-color: #B0A536;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+#connect {
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 20px 20px 30px gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#champ h3 {
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+
+}

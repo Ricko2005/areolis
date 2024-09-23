@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+
+#menu {
+   
+    width: 100%;
+    background-color: #B0A536;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+
+.logo {
+  
+margin: 20px;
+    font-size: 20px;
+}
+
+
+
+
+.logo a {
+    padding: 10px 40px;
+    color: #fff;
+  
+
+    text-decoration: none;
+font-weight: 900;
+
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#box {
+    display: flex;
+    gap: 40%;
+}
+
+#formulaire {
+    font-family: "Raleway", sans-serif;
+    padding: 95px 20px;
+    width: 350px;
+    height: 590px;
+    border: 1px solid gainsboro;
+
+}
+
+#formulaire p {
+    padding-top: 15px;
+    font-weight: 500;
+
+}
+
+#formulaire input {
+    margin-top: 12px;
+    width: 300px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+#send {
+    margin-left: -19px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    margin-top: 27px;
+    width: 350px;
+    padding: 10px 40px;
+    background-color:#B0A536;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    font-weight: 900;
+
+
+}
+
+
+
+#Countdown {
+    padding: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 10px;
+font-weight: 900px;
+    width: 350px;
+    background-color: #B0A536;
+    color: #fff;
+}
+
+.bloc strong {
+   
+    padding-right: 20px;
+}
+
+#sideleft p{
+    margin-top: 15px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 20px;
+    font-size: 1.5em;   
+    font-weight: bold;
+}
+#sideright h1 {
+    font-family: "Raleway", sans-serif;
+    margin: 30px;
+    font-size: 2em;
+    display: flex;
+    font-weight: 800;
+
+}
+#color{
+    color: #B0A536;
+}
+
+#type {
+   
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 38%;
+    
+}
+
+.line {
+  position: absolute;
+  top: 32%;
+    margin-right: 20px;
+    width: 320px;
+    border: 1px solid#B0A536;
+}
+
+
+
+#icon {
+    color: #fff;
+    font-size: 50px;
+}
+
+#sommes {
+    gap: 75px;
+    display: flex;
+    font-size: 27px;
+
+}
+
+#sommes span {
+    padding-top: 20px;
+}
+
+#price {
+
+    font-size: 20px;
+
+    margin-top: 12px;
+}
+
+#sideleft {
+    flex-direction: column;
+    display: flex;
+}
+
+#sideleft img {
+    margin: 20%;
+    width: 300px;
+}
+
+
+
+#downloadPDF ion-icon {
+    font-size: 30px;
+}
